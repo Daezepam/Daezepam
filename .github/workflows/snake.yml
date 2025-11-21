@@ -14,9 +14,10 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: Daezepam
+          snake_color: "#FFFFFF"
           outputs: |
-            dist/github-snake.svg?palette=%23FFFFFF
-            dist/github-snake-dark.svg?palette=%23FFFFFF
+            dist/github-snake.svg
+            dist/github-snake-dark.svg
 
 
       - uses: crazy-max/ghaction-github-pages@v3
